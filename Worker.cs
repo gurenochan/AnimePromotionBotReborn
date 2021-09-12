@@ -74,7 +74,7 @@ namespace AnimePromotionBotReborn
             }
         }
 
-        protected async Task PerformUpdate(Update update, CancellationToken cancellationToken)
+        protected async Task PerformUpdate(Update update, CancellationToken cancellationToken=default)
         {
             switch(update.Type)
             {

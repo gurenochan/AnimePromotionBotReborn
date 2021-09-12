@@ -20,8 +20,6 @@ namespace AnimePromotionBotReborn.Models
 
         public int HumanTypeId { get; set; }
 
-        public long MainChatId { get; set; }
-
         public virtual HumanType HumanType { get; set; }
     }
 }
